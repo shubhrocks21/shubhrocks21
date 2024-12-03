@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Creative Gifts</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Shop</a></li>
+      </ul>
+    </nav>
+    <div class="cart">
+      <a href="checkout.html">Cart (1)</a>
+    </div>
+  </header>
+
+  <section class="checkout">
+    <h2>Checkout</h2>
+    <form>
+      <h3>Billing Information</h3>
+      <input type="text" placeholder="Full Name">
+      <input type="text" placeholder="Address">
+      <input type="email" placeholder="Email">
+
+      <h3>Payment Information</h3>
+      <input type="text" placeholder="Credit Card Number">
+      <input type="text" placeholder="Expiration Date">
+      <input type="text" placeholder="CVV">
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Creative Gifts. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
